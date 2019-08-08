@@ -20,8 +20,9 @@ git clone https://github.com/VasuGoel/gitfetch-github-api.git
 ```
 cd ~/Downloads/gitfetch-github-api-master/
 ```
-
-
+#### 3. Locate 'index.html'
+* Once inside the maser folder, search for 'index.html' and open it.
+* Type any username to get the data printed on the web-page.
 
 
 ## Built With
@@ -29,7 +30,6 @@ cd ~/Downloads/gitfetch-github-api-master/
 * [Javascript] (https://www.javascript.com/) - High-level, interpreted programming language
 * [HTML] (https://www.html.com/) - Standard markup language
 * [CSS] (https://css.com) - Style sheet language
-
 
 ## Authors
 * **Vasu Goel** (https://github.com/VasuGoel)
