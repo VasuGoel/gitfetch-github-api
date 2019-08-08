@@ -9,6 +9,20 @@ Start by either downloading the zip file or clone with HTTPS.
 ### Prerequisites
 * Node.js & NPM (https://nodejs.org/en/)
 
+# Running
+### Steps to play with app (on Mac or Linux)
+#### 1. Clone the repository
+```
+git clone https://github.com/VasuGoel/gitfetch-github-api.git
+```
+#### 2. Unzip and change directory
+* After cloning, double-click to unzip the project. After unzipping, type
+```
+cd ~/Downloads/gitfetch-github-api-master/
+```
+
+
+
 
 ## Built With
 * [GitHub API v3] (https://developer.github.com/v3/) - Interface provided by GitHub for developers that want to develop applications targeting GitHub
