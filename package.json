@@ -1,0 +1,14 @@
+{
+  "name": "git-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/style.scss css/style.css -w"
+  },
+  "author": "Hamza Mirza",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
