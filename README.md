@@ -1,6 +1,8 @@
 # GitFetch
 JavaScript application that fetches data from the GitHub REST API v3 and displays it on the web-page.
 
+The GitHub API is an interface provided by GitHub for developers that want to develop applications targeting GitHub.
+
 ## Getting Started
 Start by either downloading the zip file or clone with HTTPS.
 
@@ -9,6 +11,10 @@ Start by either downloading the zip file or clone with HTTPS.
 
 
 ## Built With
+* [GitHub API v3] (https://developer.github.com/v3/) - Interface provided by GitHub for developers that want to develop applications targeting GitHub
+* [Javascript] (https://www.javascript.com/) - High-level, interpreted programming language
+* [HTML] (https://www.html.com/) - Standard markup language
+* [CSS] (https://css.com) - Style sheet language
 
 
 ## Authors
