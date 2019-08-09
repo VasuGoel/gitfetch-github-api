@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node-sass sass/style.scss css/style.css -w"
   },
-  "author": "Hamza Mirza",
-  "license": "ISC",
+  "author": "Vasu Goel",
+  "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "live-server": "^1.2.1"
