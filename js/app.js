@@ -6,7 +6,7 @@ const reposContainer = document.querySelector(".main__profile-repos");
 const urlContainer = document.querySelector(".main__profile-url");
 
 $(document).ready(() => {
-    $.getJSON( "/client_token.json", function(json) {
+    $.getJSON( "/client_tokens.json", function(json) {
         const client_id = json.client_id;
         const client_secret = json.client_secret;
 
