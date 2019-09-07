@@ -17,6 +17,9 @@ $(document).ready(() => {
                 console.log(res);
                 
                 $('.main__profile-name').html(`Name: <span class="main__profile-value">${res.name}</span>`);
+                $('.main__profile-username').html(`Username: <span class="main__profile-value">${res.login}</span>`);
+                $('.main__profile-repos').html(`Repos: <span class="main__profile-value">${res.public_repos}</span>`);
+                $('.main__profile-url').html(`URL: <span class="main__profile-value">${res.html_url}</span>`);
             });
         });
     });
