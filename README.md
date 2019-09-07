@@ -20,9 +20,13 @@ git clone https://github.com/VasuGoel/gitfetch-github-api.git
 ```
 cd ~/Downloads/gitfetch-github-api-master/
 ```
-#### 3. Locate 'index.html'
-* Once inside the maser folder, search for 'index.html' and open it.
-* Type any username to get the data printed on the web-page.
+#### 3. Start a live-server
+* live-server helps avoid this error "XMLHttpRequest at 'file:///client_tokens.json' from origin 'null' has been blocked by CORS policy"
+```
+live-server
+```
+#### 4. Search for any username
+* live-server will serve the application on http://127.0.0.1:8080/ where you can look up any GitHub profile by just searching for the username.
 
 
 ## Built With
