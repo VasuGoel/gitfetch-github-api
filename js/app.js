@@ -1,5 +1,4 @@
 $(document).ready(() => {
-
     // Read client_id & client_secret form hidden file client_tokens.json
     $.getJSON( "/client_tokens.json", function(json) {
         const client_id = json.client_id;
@@ -16,7 +15,9 @@ $(document).ready(() => {
         $('.searchButton').click(() => {
             fetchUser($('#search').val()).then((res) => {
                 console.log(res);
-            })
+                
+                $('.main__profile-name').html(`Name: <span class="main__profile-value">${res.name}</span>`);
+            });
         });
     });
 });
