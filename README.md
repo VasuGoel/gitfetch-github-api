@@ -20,12 +20,16 @@ git clone https://github.com/VasuGoel/gitfetch-github-api.git
 ```
 cd ~/Downloads/gitfetch-github-api-master/
 ```
-#### 3. Start a 'live-server'
-* Once inside the maser folder, launch terminal and type 'live-server'
 
-#### 4. Search for some profiles!
+#### 3. Start a live-server
+* live-server helps avoid this error "XMLHttpRequest at 'file:///client_tokens.json' from origin 'null' has been blocked by CORS policy"
+```
+live-server
+```
+#### 4. Search for any username
+* live-server will serve the application on http://127.0.0.1:8080/ where you can look up any GitHub profile by just searching for the username.
+>>>>>>> d3952d513333db5ad43136964367eb5e7e582a52
 
-* After the live-server has started, you'll be redirected to http://127.0.0.1:8080 where you can start searching GitHub profiles.
 
 ## Built With
 * [GitHub API v3] (https://developer.github.com/v3/) - Interface provided by GitHub for developers that want to develop applications targeting GitHub
