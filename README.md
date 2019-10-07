@@ -20,10 +20,12 @@ git clone https://github.com/VasuGoel/gitfetch-github-api.git
 ```
 cd ~/Downloads/gitfetch-github-api-master/
 ```
-#### 3. Locate 'index.html'
-* Once inside the maser folder, search for 'index.html' and open it.
-* Type any username to get the data printed on the web-page.
+#### 3. Start a 'live-server'
+* Once inside the maser folder, launch terminal and type 'live-server'
 
+#### 4. Search for some profiles!
+
+* After the live-server has started, you'll be redirected to http://127.0.0.1:8080 where you can start searching GitHub profiles.
 
 ## Built With
 * [GitHub API v3] (https://developer.github.com/v3/) - Interface provided by GitHub for developers that want to develop applications targeting GitHub
